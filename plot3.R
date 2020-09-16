@@ -7,6 +7,6 @@ points(Fdata$Time,Fdata$Sub_metering_1, col = "black", type = "l")
 points(Fdata$Time,Fdata$Sub_metering_2, col = "red", type = "l")
 points(Fdata$Time,Fdata$Sub_metering_3, col = "blue", type = "l")
 legend("topright", col=c("black", "red", "blue"), lty=1, lwd=1, 
-       legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
-dev.copy(png, file = "plot2.png", width = 480, height = 480)
+       legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),cex=0.7)
+dev.copy(png, file = "plot3.png", width = 480, height = 480)
 dev.off()
